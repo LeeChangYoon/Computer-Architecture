@@ -1,0 +1,147 @@
+FET: M R1 0x10
+DEC: 2.1.5.1.16
+EXE: R[1]: 0x10
+
+FET: M R2 0x14
+DEC: 2.2.5.1.20
+EXE: R[2]: 0x14
+
+FET: J 0x4
+DEC: 1.4.7.0.0
+EXE: Jump to 4
+
+FET: C R1 R2
+DEC: 2.1.8.2.2
+EXE: R[0]: 1
+
+FET: B 0xd
+DEC: 1.13.9.0.0
+EXE: Jump to 13
+
+FET: M R3 R1
+DEC: 2.3.5.2.1
+EXE: R[3]: 0x10
+
+FET: - R2 R1
+DEC: 2.2.2.2.1
+EXE: R[0]: 0x4 = 0x14 - 0x10
+
+FET: M R1 R0
+DEC: 2.1.5.2.0
+EXE: R[1]: 0x4
+
+FET: M R2 R3
+DEC: 2.2.5.2.3
+EXE: R[2]: 0x10
+
+FET: J 0x4
+DEC: 1.4.7.0.0
+EXE: Jump to 4
+
+FET: C R1 R2
+DEC: 2.1.8.2.2
+EXE: R[0]: 1
+
+FET: B 0xd
+DEC: 1.13.9.0.0
+EXE: Jump to 13
+
+FET: M R3 R1
+DEC: 2.3.5.2.1
+EXE: R[3]: 0x4
+
+FET: - R2 R1
+DEC: 2.2.2.2.1
+EXE: R[0]: 0xc = 0x10 - 0x4
+
+FET: M R1 R0
+DEC: 2.1.5.2.0
+EXE: R[1]: 0xc
+
+FET: M R2 R3
+DEC: 2.2.5.2.3
+EXE: R[2]: 0x4
+
+FET: J 0x4
+DEC: 1.4.7.0.0
+EXE: Jump to 4
+
+FET: C R1 R2
+DEC: 2.1.8.2.2
+EXE: R[0]: 0
+
+FET: B 0xd
+DEC: 1.13.9.0.0
+
+FET: C R2 R1
+DEC: 2.2.8.2.1
+EXE: R[0]: 1
+
+FET: B 0xa
+DEC: 1.10.9.0.0
+EXE: Jump to 10
+
+FET: - R1 R2
+DEC: 2.1.2.2.2
+EXE: R[0]: 0x8 = 0xc - 0x4
+
+FET: M R1 R0
+DEC: 2.1.5.2.0
+EXE: R[1]: 0x8
+
+FET: J 0x4
+DEC: 1.4.7.0.0
+EXE: Jump to 4
+
+FET: C R1 R2
+DEC: 2.1.8.2.2
+EXE: R[0]: 0
+
+FET: B 0xd
+DEC: 1.13.9.0.0
+
+FET: C R2 R1
+DEC: 2.2.8.2.1
+EXE: R[0]: 1
+
+FET: B 0xa
+DEC: 1.10.9.0.0
+EXE: Jump to 10
+
+FET: - R1 R2
+DEC: 2.1.2.2.2
+EXE: R[0]: 0x4 = 0x8 - 0x4
+
+FET: M R1 R0
+DEC: 2.1.5.2.0
+EXE: R[1]: 0x4
+
+FET: J 0x4
+DEC: 1.4.7.0.0
+EXE: Jump to 4
+
+FET: C R1 R2
+DEC: 2.1.8.2.2
+EXE: R[0]: 0
+
+FET: B 0xd
+DEC: 1.13.9.0.0
+
+FET: C R2 R1
+DEC: 2.2.8.2.1
+EXE: R[0]: 0
+
+FET: B 0xa
+DEC: 1.10.9.0.0
+
+FET: M R0 R1
+DEC: 2.0.5.2.1
+EXE: R[0]: 0x4
+
+FET: J 0x3
+DEC: 1.3.7.0.0
+EXE: Jump to 3
+
+FET: H
+DEC: 0.0.6.0.0
+EXE: Program Terminated

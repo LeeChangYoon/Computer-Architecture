@@ -1,0 +1,19 @@
+M R1 0x10
+M R2 0x14
+J 0x4
+H
+C R1 R2
+B 0xd
+C R2 R1
+B 0xa
+M R0 R1
+J 0x3
+- R1 R2
+M R1 R0
+J 0x4
+M R3 R1
+- R2 R1
+M R1 R0
+M R2 R3
+J 0x4
+
