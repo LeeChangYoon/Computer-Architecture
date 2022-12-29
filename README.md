@@ -2,10 +2,10 @@
 Repository for Computer Architecture class
 
 # Index
-1. [Project1-Simple Calculator](#Project1-Simple-Calculator)
-2. [Project2-Single Cycle MIPS Simulator](#Project2-Single-Cycle-MIPS-Simulator)
-3. [Project3-Pipelined MIPS Simulator](#Project3-Pipelined-MIPS-Simulator)
-4. [Project4-Pipelined MIPS Simulator with Cache](#Project4-Pipelined-MIPS-Simulator-with_Cache)
+1. [Project1 - Simple Calculator](#Project1-Simple-Calculator)
+2. [Project2 - Single Cycle MIPS Simulator](#Project2-Single-Cycle-MIPS-Simulator)
+3. [Project3 - Pipelined MIPS Simulator](#Project3-Pipelined-MIPS-Simulator)
+4. [Project4 - Pipelined MIPS Simulator with Cache](#Project4-Pipelined-MIPS-Simulator-with_Cache)
 
 <br><br>
 # Project1-Simple Calculator
